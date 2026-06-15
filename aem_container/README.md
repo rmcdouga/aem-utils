@@ -9,7 +9,7 @@ The installation files in AemSoftware should include:
 * (optionally) any service pack jar files 
 * the forms add-on jar file
 * the aem_cntrl jar
-* (optionally) the fluent forms jars
+* (optionally) the fluent forms jars (remember, use fluent forms version 0.0.3 for non-LTS AEM as later versions of fluent forms require LTS) 
 * (optionally) an application.properties if you want to override any settings (like the trace level)
 
 If using the AEM LTS, alter the `aem_lts.dockerfile` CMD line (at the end of the file) to launch the correct crx quickstart jar (e.g. `crx-quickstart/app/cq-quickstart-6.6.1-standalone-quickstart.jar` for 6.5 LTS SP1).
