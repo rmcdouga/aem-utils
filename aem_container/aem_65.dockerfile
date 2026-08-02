@@ -1,4 +1,4 @@
-FROM oraclelinux:9-slim AS aem-base
+FROM oraclelinux:10-slim AS aem-base
 
 ENV container="aem-6.5-quickstart,aem-author,ubuntu,java11"
 #Container Size: 280MB
