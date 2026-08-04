@@ -62,7 +62,7 @@
 		<fp-hamcrest-matchers.version>0.0.4-SNAPSHOT</fp-hamcrest-matchers.version>
 		<lorem.version>2.2</lorem.version>
 		<wiremock.version>3.13.2</wiremock.version>
-		<archunit.version>1.4.2</archunit.version>
+		<archunit.version>1.5.0</archunit.version>
 	</properties>
 	<dependencies>
 	    <!-- Project Dependencies -->
